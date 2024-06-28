@@ -314,7 +314,7 @@ export class MusicQueue {
 
     try {
       playingMessage = await this.textChannel.send({
-        content: song.startMessage(),
+        content: `Fazendo sexo com: ${song.title}`,
         components: this.createButtonRow()
       });
     } catch (error: unknown) {
